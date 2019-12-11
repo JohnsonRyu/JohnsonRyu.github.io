@@ -10,6 +10,7 @@ export default class MyDocument extends Document {
             rel="stylesheet"
             href="//cdn.jsdelivr.net/npm/semantic-ui@2.4.1/dist/semantic.min.css"
           />
+          <title>기혁 닷컴</title>
         </Head>
         <body>
           <Main />
