@@ -4,7 +4,7 @@ import { Button, Header, Icon, Segment } from "semantic-ui-react";
 export class HomePage extends Component {
   render() {
     return (
-      <Segment inverted textAlign="center" vertical style={{ height: "100vh" }}>
+      <Segment inverted textAlign="center" style={{ height: "100vh" }}>
         <Header
           as="h1"
           inverted
@@ -29,14 +29,6 @@ export class HomePage extends Component {
           “안해요 (Do not)”는 가능하지만, “못해요 (Can not)”는 불가능한
           프로그래머입니다.
         </Header>
-        <Button primary size="huge">
-          기혁이의 실험실
-          <Icon name="lab" />
-        </Button>
-        <Button primary size="huge">
-          기혁이의 실험실
-          <Icon name="right arrow" />
-        </Button>
         <Header
           as="h1"
           inverted
