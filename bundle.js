@@ -32168,7 +32168,7 @@ const react_1 = __importDefault(__webpack_require__(/*! react */ "./node_modules
 const styled_components_1 = __importDefault(__webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js"));
 const BELStyledIcon = (_a) => {
     var { className } = _a, props = __rest(_a, ["className"]);
-    const root = `public/images/${props._src}`;
+    const root = `Public/Images/${props._src}`;
     return (react_1.default.createElement("img", { className: className, src: root }, props.children));
 };
 const StyledIcon = styled_components_1.default(BELStyledIcon) `
